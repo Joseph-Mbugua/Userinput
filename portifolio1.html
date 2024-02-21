@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Portifolio</title>
+    <style>
+      /* CSS to hide all sections by default */
+      section {
+        display: none;
+      }
+
+      /* CSS to show the selected section */
+      section:target {
+        display: block;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: lightblue;
+      }
+      nav {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: right;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+      section {
+        padding: 20px;
+      }
+
+      footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+    </nav>
+
+    <section id="home">
+      <h1>Home</h1>
+      <p>
+        My name is Joseph Mbugua and I am passionate about engineering. I love
+        bike riding. I have two years of experience in the banking industry as a
+        bank teller and a digital marketer.
+      </p>
+    </section>
+
+    <section id="about">
+      <h1>About</h1>
+      <p>
+        I am currently pursuing a degree in electrical engineering at the
+        University of Nairobi to further develop my skills and knowledge in the
+        field. In my free time, I enjoy working on DIY projects and exploring
+        new biking trails in the countryside. I am excited about the endless
+        possibilities that engineering offers and look forward to making a
+        positive impact in the industry.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h1>Projects</h1>
+      <p>Check out some of my projects:</p>
+      <ul>
+        <li>Project 1: A portifolio website</li>
+        <li>Project 2: A book website</li>
+        <li>Project 3: An E-commerce website</li>
+      </ul>
+    </section>
+  </body>
+  <footer>
+    <hr />
+    <p>Developed by Joseph Mbugua <i class="fas fa-copyright">2024</i></p>
+  </footer>
+</html>
