@@ -32,16 +32,19 @@
         padding: 10;
       background-color: black;
         color: #fff;
-       justify-content: center;
-       align-items: center;
-  background-image: url('https://example.com/image.jpg');
-            background-size: cover;
-            background-position: center; 
+       justify-content: left;
+       align-items: left;
+  background-image: url('https://getwallpapers.com/wallpaper/full/a/b/b/29947.jpg');
+     background-size: cover;
+       font-size: 12px; 
+            line-height: 1.2; 
+            background-image filter: blur(5px)
+
 
 
       }
       nav {
-        background-color: #333;
+        background-color: transparent;
         color: #fff;
         padding: 10px;
         text-align: right;
@@ -62,7 +65,7 @@
       position: fixed;
       bottom: 0;
       width: 100%;
-      background-color: black;
+      background-color: transparent;
       color: #fff;
       padding: 10px 0;
       text-align: center;
@@ -80,20 +83,34 @@
         .button:hover {
             background-color: #0056b3;
         }
+        .container {
+    text-align: left; /* For centering inline content */
+}
 
+.centered {
+    margin: 0 auto; /* This will center the block-level element horizontally */
+}
+
+.left-align {
+            text-align: left;
+            margin-right: 60%; /* Leave space on the right */
+            margin-left: auto; /* Adjust the value as needed */
   
 
  
 
     </style>
   </head>
- 
- <body>
-    <nav>
+      <body>
+       <nav>
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
     </nav>
+ <div class="container">
+    <div class="left-align">
+
+   
 
     <section id="home">
       <h1>Home</h1>
@@ -117,7 +134,7 @@
   <p> <a href="#project3" class="button">Project 3:</a> </p>
 </section>
    <section id="project2">
-     <h1>Project 2: A book website</h1> Book Website <br>Welcome to our Book Website! Here you will find a wide selection of books ranging from bestsellers to hidden gems. Whether you're looking for a thrilling mystery, a heartwarming romance, or an informative non-fiction read, we've got you covered. <br>Stay tuned for updates on new releases, author interviews, and exclusive deals. Happy reading!We also offer personalized book recommendations based on your preferences and past reads. Our goal is to help you discover new books that you'll love and enjoy. Don't forget to sign up for our newsletter to stay informed about the latest book releases and promotions. Happy browsing and happy reading!Looking for a specific genre or author? Use our search bar to easily find what you're looking for. <br>With our user-friendly interface, navigating through our vast collection of books is a breeze. And if you ever need assistance or have any questions, feel free to reach out to our customer service team who are always happy to help. <br>Happy exploring and happy reading!Looking to join a book club or participate in discussions with fellow book lovers? Look no further! Our online book community offers a space for readers to connect, share their thoughts, and engage in lively conversations about their favorite books. From virtual book clubs to author Q&A sessions, there are plenty of opportunities to connect with like-minded individuals who share your passion for reading. <br>Join us today and immerse yourself in a world of literary delight. Happy connecting and happy reading!  
+     <h1>Project 2: A book website</h1> Book Website <br>Welcome to our Book Website. Here you will find a wide selection of books ranging from bestsellers to hidden gems. Whether you're looking for a thrilling mystery, a heartwarming romance, or an informative non-fiction read, we've got you covered. <br>Stay tuned for updates on new releases, author interviews, and exclusive deals. Happy reading!We also offer personalized book recommendations based on your preferences and past reads. Our goal is to help you discover new books that you'll love and enjoy. Don't forget to sign up for our newsletter to stay informed about the latest book releases and promotions. Happy browsing and happy reading!Looking for a specific genre or author? Use our search bar to easily find what you're looking for. <br>With our user-friendly interface, navigating through our vast collection of books is a breeze. And if you ever need assistance or have any questions, feel free to reach out to our customer service team who are always happy to help. <br>Happy exploring and happy reading!Looking to join a book club or participate in discussions with fellow book lovers? Look no further! Our online book community offers a space for readers to connect, share their thoughts, and engage in lively conversations about their favorite books. From virtual book clubs to author Q&A sessions, there are plenty of opportunities to connect with like-minded individuals who share your passion for reading. <br>Join us today and immerse yourself in a world of literary delight. Happy connecting and happy reading.
      <<p> <a href="#project1" class="button">Project 1</a> </p>
   <p> <a href="#project3" class="button">Project 3:</a> </p>
    </section>
@@ -146,6 +163,10 @@
   </footer>
   </body>
 
+    </div>
+</div>
+
+ 
 
 
 </html>
